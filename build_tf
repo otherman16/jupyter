@@ -1,1 +1,1 @@
-docker image build -t otherman16/jupyter:tf -f Dockerfile_tf .
+docker system prune -f && docker image build --no-cache -t otherman16/jupyter:tf -f Dockerfile_tf .
