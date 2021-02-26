@@ -1,0 +1,1 @@
+docker image build -t otherman16/jupyter:torch-2.0 -f Dockerfile_torch_2_0 .

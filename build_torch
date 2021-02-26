@@ -1,1 +1,0 @@
-docker image build -t otherman16/jupyter:torch -f Dockerfile_torch .
