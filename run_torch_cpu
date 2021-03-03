@@ -1,1 +1,1 @@
-docker run --rm -p 10000:8888 -p 10001:6006 -p 10002:22 -v $HOME:/jupyter/home -v /media/akobylin/D/datasets:/jupyter/datasets --ipc host otherman16/jupyter:torch
+docker run --rm -p 8888:8888 -p 6006:6006 -v $HOME:/workdir/home --ipc host otherman16/jupyter:torch-2.0
